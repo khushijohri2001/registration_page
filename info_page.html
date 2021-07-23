@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+.navbar a.right {
+  float: right;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: GREEN;
+}
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>TIC TAC TOE</h1>
+  <p>Play online game.</p>
+</div>
+
+<div class="navbar">
+  <a href="registration page/index.html">Registration</a>
+  <a href="ttt/index.html" class="right">Play</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About us</h2>
+    <h4>Team members:</h4>
+    <p><b> Pranav Sagar</b><br>--PGI19CS039 <br><b> Om Prakash </b><br>--PGI19CS037<br> <b>Khushi Johri</b><br>--PGI19CS024</p>
+
+
+  </div>
+  <div class="main">
+    <h2>Tic Tac Toe</h2>
+    <p>Tic-tac-toe (American English), noughts and crosses (Commonwealth English), or Xs and Os, is a paper-and-pencil game for two players, <br>
+      X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner. <br>
+      It is a solved game with a forced draw assuming best play from both players.</p>
+    <h2>How to play tic tak toe game</h2>
+    <h5>Rules for tic tac toe game</h5>
+    <p><b> Video Preview</b> </p>
+    <a href="https://youtu.be/8JRObso0owY"><b>CLICK HERE TO KNOW HOW TO PLAY</b></a>
+    
+    <p>RULES FOR TIC-TAC-TOE</p>
+    <p>1. The game is played on a grid that's 3 squares by 3 squares.</p>
+    <p> 2. You are X, your friend (or the computer in this case) is O. Players take turns putting their marks in empty squares.</p>
+    <p> 3. The first player to get 3 of her marks in a row (up, down, across, or diagonally) is the winner.</p>
+    <p> 4. When all 9 squares are full, the game is over. If no player has 3 marks in a row, the game ends in a tie.</p>
+    <br>
+    <h2>HOW CAN I WIN AT TIC-TAC-TOE?</h2>
+    <h5>tic tac toe game tricks to win</h5>
+    <iframe width="265" height="265" src="https://upload.wikimedia.org/wikipedia/commons/d/da/TicTacToe-152374698XOp.gif">
+</iframe>
+    <p>To beat the computer (or at least tie), you need to make use of a little bit of strategy. Strategy means figuring out what you need to do to win.</p>
+    <p>Part of your strategy is trying to figure out how to get three Xs in a row. The other part is trying to figure out how to stop the computer from getting three Os in a row.</p>
+    <p>After you put an X in a square, you start looking ahead. Where's the best place for your next X? You look at the empty squares and decide which ones are good choices—which ones might let you make three Xs in a row.</p>
+    <p>You also have to watch where the computer puts its O. That could change what you do next. If the computer gets two Os in a row, you have to put your next X in the last empty square in that row, or the computer will win. You are forced to play in a particular square or lose the game.</p>
+    <p>If you always pay attention and look ahead, you'll never lose a game of Tic-Tac-Toe. You may not win, but at least you'll tie</p> 
+ </div>
+</div>
+
+
+<div class="footer">
+  <h2>Thanks for opening</h2>
+</div>
+
+</body>
+</html>
